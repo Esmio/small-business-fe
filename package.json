@@ -11,7 +11,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git@github.com:esmio/rtb.git"
+        "url": "git@github.com:esmio/small-business-fe.git"
     },
     "license": "MIT",
     "scripts": {
