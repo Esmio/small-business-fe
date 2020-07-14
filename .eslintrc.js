@@ -82,10 +82,17 @@ module.exports = {
         '@typescript-eslint/no-explicit-any': OFF,
         '@typescript-eslint/no-non-null-assertion': OFF,
         '@typescript-eslint/no-useless-constructor': ERROR,
-
+        '@typescript-eslint/explicit-module-boundary-types': OFF,
+        
         'react/jsx-filename-extension': [ERROR, { extensions: ['.tsx'] }],
         'react/jsx-indent-props': [ERROR, 4],
         'react/jsx-indent': [ERROR, 4],
+        'react/prop-types': OFF,
+        'react/require-default-props': OFF,
+        'react/jsx-props-no-spreading': OFF,
+
+        'jsx-a11y/click-events-have-key-events': OFF,
+        'jsx-a11y/no-noninteractive-element-interactions': OFF,
 
         'func-names': OFF,
         'lines-between-class-members': OFF,
